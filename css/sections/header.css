@@ -1,0 +1,49 @@
+.header___nav {
+  display: flex;
+  /* flex-direction: row; */
+  overflow: hidden;
+  justify-content: space-around;
+}
+
+.header___logo {
+  flex: 1;
+  display: flex;
+  position: relative;
+  padding: 20px;
+}
+
+.header___logo-overlay {
+  position: absolute;
+  inset: 0;
+  background: #b1454a;
+  z-index: 1;
+}
+.header___logo h3 {
+    padding-left: 10px;
+    padding-top: 8px;
+    color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header___menu li {
+  list-style: none;
+  margin: 4px;
+}
+
+/* .header___menu p {
+   color: red;
+   margin: 20px;
+   border-color: black;
+    border-style: solid;
+   padding: 14px;
+    } */
+
+.header___menu {
+  display: flex;
+}
+
+.header___menu-mobile {
+  list-style: none;
+}
