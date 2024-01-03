@@ -36,6 +36,7 @@
   line-height: 20px;
   cursor: pointer;
   display: flex;
+  align-items: center;
 }
 
 .header___menu li img {
