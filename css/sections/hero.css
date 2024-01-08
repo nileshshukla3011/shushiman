@@ -41,6 +41,7 @@
   width: 100%;
   background-color: #b1454a;
   z-index: -1;
+  margin: 100;
 }
 .hero-image h2 {
   position: absolute;
