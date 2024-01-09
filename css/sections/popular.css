@@ -167,8 +167,10 @@ font-size:32px;
 .popular-foods__card.active-card .popular-foods__card-rating p {
 font-size:24px;
 color:var(--gray-100);
+
 }
 .popular-foods__card.active-card .popular-foods__card-price {
+    padding-left: 36px;
     font-size:24px;
     color:var(--secondary-color);
 }
